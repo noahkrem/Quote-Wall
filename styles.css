@@ -1,3 +1,39 @@
-h1 {
-    color: blue;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
 }
+
+.navbar {
+    background: #FFF8E7;
+    height: 80px;
+    /* Let all the flexible items be the same length, regardless of its content */
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    /* 1 Rem is equal to 16 pixels by default */
+    font-size: 1.2rem;
+
+    position: sticky;
+    top: 0;
+    /* Keep the navigation bar above all other content on the website */
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    /* Order: top, right, bottom, left */
+    /* If we only give two values, the first two represent top and bottom, other two represent right and left */
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+
