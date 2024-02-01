@@ -1,1 +1,1 @@
-Tut: Adding FontAwesome Icons
+Tut: Adding Google Fonts

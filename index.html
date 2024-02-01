@@ -6,12 +6,17 @@
     <title>Quote Wall</title>
     <!-- Link the CSS stylesheet -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <nav class="navbar">
         <div class="navbar__container">
             <!-- Add the reference later -->
-            <a href="/" id="navbar__logo">NEXT PAGE</a>
+            <a href="/" id="navbar__logo"><i class="fa-solid fa-quote-left"></i>NEXT PAGE</a>
             <!-- Whenever we click on the navigation bar it will toggle from the lines to the X -->
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
@@ -34,6 +39,21 @@
             </ul>
         </div>
     </nav>
+
+    <!-- Hero Section -->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>GENERATE</h1>
+                <h2>TECH</h2>
+                <p>What is Quote Wall?</p>
+                <button class="main__btn"><a href="/">Get Started</a></button>
+            </div>
+            <div class="main__img--container">
+                <img src="images/undraw_sorting_thoughts.svg" alt="pic" id="main__img">
+            </div>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
